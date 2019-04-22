@@ -9,13 +9,14 @@ from setuptools import setup
 
 setup(
     name="syspath_fixer",
-    version="1.0.0",
-    url="https://github.com/TeodorIvanov/feedfinder3",
+    version="1.0.1",
+    url="https://github.com/TeodorIvanov/syspath-fixer",
     license="MIT",
     author="Teodor Ivanov",
     author_email="tdrivanov@gmail.com",
     description="add modules to syspath easily",
-    long_description="add modules to syspath easily",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
     py_modules=["syspath_fixer"],
     classifiers=[
         "Programming Language :: Python",
